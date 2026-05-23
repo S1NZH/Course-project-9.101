@@ -44,6 +44,7 @@ F_vod_1 = K_1(1)*M_max*K_ner(1)./(A.*R_st(1)); % Радиальная нагру
 V = pi.*b_st.*(D_st.^2-d_st.^2)/4;
 m_st = ro*V;
 omega = (K_vod*2*n_dvs_max*pi)/60;
+omega(1) = (K_vod(1)*2*1500*pi)/60;
 % P_ch = m_st.*omega.*R_st;
 P_ch = m_st.*omega.^2.*R_st;
 % ур-ние моментов относительно опоры 1
