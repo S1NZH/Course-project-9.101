@@ -4,7 +4,7 @@ Computational Applications and System Integration Inc.
 All rights Reserved.
 ******************************************************************************
 
-Job:file0	at:Mon Jun 15 22:16:53 2026
+Job:file0	at:Tue Jun 16 00:04:01 2026
 
 
 	Number of cores used (Distributed Memory Parallel): 4
@@ -18,49 +18,49 @@ Job:file0	at:Mon Jun 15 22:16:53 2026
 
 	Nonzeros in Upper Triangular part of
 	             Global Stiffness Matrix : 17460759
-	Nonzeros in Preconditioner: 4648556
+	Nonzeros in Preconditioner: 4618564
 		*** Precond Reorder: Mindegree ***
-		Nonzeros in V: 1210068
-		Nonzeros in factor: 2521106
-		Equations in factor: 14274
+		Nonzeros in V: 1251522
+		Nonzeros in factor: 2449660
+		Equations in factor: 13908
 	*** Level of Difficulty: 1   (internal 0) ***
 
-	Total Operation Count: 1.13538e+10
+	Total Operation Count: 1.13144e+10
 	Total Iterations In PCG: 111
 	Average Iterations Per Load Case:  111.0
 	Input PCG Error Tolerance: 1e-08
-	Achieved PCG Error Tolerance: 7.32322e-09
+	Achieved PCG Error Tolerance: 8.18515e-09
 
 
 	DETAILS OF PCG SOLVER SETUP TIME(secs)        Cpu        Wall
 	     Gather Finite Element Data              0.06        0.03
-	     Element Matrix Assembly                 0.33        0.27
+	     Element Matrix Assembly                 0.30        0.27
 
 	DETAILS OF PCG SOLVER SOLUTION TIME(secs)     Cpu        Wall
-	     Preconditioner Construction             0.45        0.46
-	     Preconditioner Factoring                0.09        0.10
-	     Apply Boundary Conditions               0.03        0.03
-	     Preconditioned CG Iterations            1.19        1.23
-	          Multiply With A                    0.63        0.73
-	               Multiply With A22             0.63        0.71
-	          Solve With Precond                 0.53        0.41
-	               Solve With Bd                 0.03        0.04
-	               Multiply With V               0.28        0.19
-	               Communication Overhead        0.02        0.02
-	               Direct Solve                  0.17        0.15
+	     Preconditioner Construction             0.42        0.41
+	     Preconditioner Factoring                0.05        0.06
+	     Apply Boundary Conditions               0.02        0.02
+	     Preconditioned CG Iterations            0.94        0.95
+	          Multiply With A                    0.63        0.58
+	               Multiply With A22             0.59        0.56
+	          Solve With Precond                 0.22        0.31
+	               Solve With Bd                 0.02        0.03
+	               Multiply With V               0.08        0.15
+	               Communication Overhead        0.02        0.01
+	               Direct Solve                  0.11        0.11
 ******************************************************************************
-	     TOTAL PCG SOLVER SOLUTION CP TIME      =       1.78 secs
-	     TOTAL PCG SOLVER SOLUTION ELAPSED TIME =       1.82 secs
+	     TOTAL PCG SOLVER SOLUTION CP TIME      =       1.45 secs
+	     TOTAL PCG SOLVER SOLUTION ELAPSED TIME =       1.44 secs
 ******************************************************************************
 	Total Memory Usage at CG         :       1.71 GB
 	PCG Memory Usage at CG           :       0.47 GB
 	Memory Usage for Matrix          :       0.21 GB
 	*** I/O Reduction Mode Activated ***
 ******************************************************************************
-	Multiply with A Memory Bandwidth :      97.52 GB/s
-	Multiply with A GFLOP Rate       :      10.47 GFlops
-	Solve With Precond GFLOP Rate    :       5.47 GFlops
-	Precond Factoring GFLOP Rate     :       8.70 GFlops
+	Multiply with A Memory Bandwidth :     122.40 GB/s
+	Multiply with A GFLOP Rate       :      13.14 GFlops
+	Solve With Precond GFLOP Rate    :       7.21 GFlops
+	Precond Factoring GFLOP Rate     :      14.76 GFlops
 ******************************************************************************
 	Total amount of I/O read         :       0.00 GB
 	Total amount of I/O written      :       0.00 GB
