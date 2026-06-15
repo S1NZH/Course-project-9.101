@@ -2,26 +2,24 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">2713</timestamp-max>
+    <timestamp-max valType="Int64">3401</timestamp-max>
     <framework-build-version valType="String">23.1.153.0</framework-build-version>
     <external-version-string valType="String">2023 R1</external-version-string>
-    <last-saved-utc valType="String">05/21/2026 08:41:14</last-saved-utc>
+    <last-saved-utc valType="String">06/15/2026 19:25:02</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">NIKITA_Zh@DESKTOP-OTJKHDV:C:\Users\COMP\AppData\Local\Temp\WorkbenchLogs\CoreEvents12952.log</ArrayEntry>
+      <ArrayEntry Index="1">NIKITA_Zh@DESKTOP-OTJKHDV:C:\Users\COMP\AppData\Local\Temp\WorkbenchLogs\CoreEvents30224.log</ArrayEntry>
+      <ArrayEntry Index="2">NIKITA_Zh@DESKTOP-OTJKHDV:C:\Users\COMP\AppData\Local\Temp\WorkbenchLogs\CoreEvents36328.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
-    <project-id valType="String">86187ea9-7bb2-4ae1-a344-cdb02bca80f9</project-id>
+    <project-id valType="String">b62e2aad-e672-432f-833c-505acc900a1c</project-id>
     <ReferenceCache>
       <ProjectReferenceList>
         <ReferenceList valType="String">{
 "6fa7565b-250e-4f48-b923-61463774ecf4": "/FileContainer/FileReference:F3",
 "8c93d2e2-afb6-4698-ba9e-5a7f6d9d184d": "/FileContainer/FileReference:F8",
-"556223de-a808-4ed3-b0a6-325a6291be5c": "/FileContainer/FileReference:F2",
-"2fbae686-2b70-473f-b159-83ba6c01b48b": "/FileContainer/FileReference:F1",
-"98a446eb-fac9-4c5f-8b75-2024eaf7bb6d": "/FileContainer/FileReference:F7",
-"b5689561-59b4-4dfa-99a4-60e4ba32eaa6": "/FileContainer/FileReference:F4",
 "16a5f82b-6e04-4917-9b41-2c6955176412": "/FileTypesContainer/FileType:GeometryFileType",
 "f3bb0e5f-bebb-412d-894f-6d1545132bc5": "/FileTypesContainer/FileType:EngineeringData",
 "a9cb5b0e-bf7b-48a4-992c-848e9cd4b1dd": "/FileTypesContainer/FileType:project",
@@ -47,7 +45,11 @@
 "e999c5aa-4354-4c74-965f-cfb628a64e4a": "/Schematic/ComponentTemplate:SimulationModelCellTemplate",
 "352fa244-1252-42d2-a47c-f69b10c7ee67": "/Schematic/ComponentTemplate:SimulationSetupCellTemplate_StructuralStaticANSYS",
 "56e2d802-eaf4-4a29-a324-14fb708656f3": "/Schematic/ComponentTemplate:SimulationSolutionCellTemplate_StructuralStaticANSYS",
-"66e9f637-c45e-4092-9578-b4650e127dc3": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_StructuralStaticANSYS"
+"66e9f637-c45e-4092-9578-b4650e127dc3": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_StructuralStaticANSYS",
+"100db7bc-128e-4267-9fe5-f50f6c228fae": "/FileContainer/FileReference:F10",
+"364199a4-4a4e-4a80-b6eb-7a8ddc8b611f": "/FileContainer/FileReference:F9",
+"8ae103a8-969a-424a-9f95-e41f209e931a": "/FileContainer/FileReference:F12",
+"91c304c3-354b-43cf-b3b0-6f81f106b20e": "/FileContainer/FileReference:F11"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -125,18 +127,16 @@
 "7f7faee9-0745-4321-86d2-91d813b36273": "/Engineering Data/MaterialProperty:Material Unique Id",
 "a5faa0c3-6610-4525-837b-00170185e7f1": "/Engineering Data/MaterialPropertyData:Material Unique Id",
 "f1c32469-ae8b-4d8b-a0e5-c8ab7560301f": "/Geometry/Geometry:GeometryDataObject",
-"07f29ddb-7995-46d5-bafc-cd5f1471051e": "/Model/MechanicalModel:MechanicalModel",
-"a06fd6ce-7a82-4d33-8edc-a0ca1690be49": "/Setup/SimulationSetup:SetupObject for Structural|Static|ANSYS",
-"abc36327-564d-4687-8639-5b03585d4543": "/Solution/SimulationSolution:SolutionObject for Structural|Static|ANSYS",
-"f14615a4-a99f-4ab2-843b-812fca454cc4": "/Results/SimulationResults:ResultsObject for Structural|Static|ANSYS",
 "e5ca044a-46ac-436f-b131-8855183b04d2": "/Model/SimulationEngineeringData:SimulationEngineeringDataObject",
 "757c675e-5f0e-4d10-a960-7e77463ad92e": "/Model/SimulationModelGeneratedMesh:SimulationModelGeneratedMesh",
 "a6cabc89-94b1-4cfb-b3cc-288749c11486": "/Model/SimulationModelGeneratedPMDB:SimulationModelGeneratedPMDB",
 "2d50be19-47e1-4bf8-98d1-6eeb621fe831": "/Model/SimulationGeneratedSolidMesh:SimulationGeneratedSolidMesh",
 "672d3270-8b64-4412-afd6-0192e445a11e": "/Engineering Data/EngineeringData:Engineering Data",
-"4f1d60eb-1cf9-42d0-91b9-6bef24ebab1f": "/Results/SimulationResultsStlZip:SimulationResultsStlZip",
 "f2114eb2-2599-4e26-b98a-57b70c082346": "/Results/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
-"26f094b2-9f1c-4c6f-8bf9-b92ae11ad448": "/Results/ExternalModelOutput:ExternalModelOutput"
+"5c9e0c1c-a721-49a3-9c88-e700288ca5ea": "/Model/MechanicalModel:MechanicalModel",
+"4115312a-f7ad-4d2a-8bca-c6baed5fe22a": "/Setup/SimulationSetup:SetupObject for Structural|Static|ANSYS",
+"1bb58443-7d30-468d-96b8-29ac1e5c1a9a": "/Solution/SimulationSolution:SolutionObject for Structural|Static|ANSYS",
+"07382aa6-3994-4e0e-a686-6287ea964f2b": "/Results/SimulationResults:ResultsObject for Structural|Static|ANSYS"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -168,17 +168,17 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2713, "Input": 1495, "Output": 1495}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3175, "Input": 1495, "Output": 1495}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/FileContainer/FileReference:F1" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F9" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F1</object-name>
-        <member-data valType="String">{"DisplayText": "Ось С3.x_t", "FileType": $$16a5f82b-6e04-4917-9b41-2c6955176412, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"D:\BMSTU Projects\ПКП\МКЭ\Ось С3.x_t", "ReferenceCount": 1}</member-data>
+        <object-name valType="String">F9</object-name>
+        <member-data valType="String">{"DisplayText": "Ось С4.x_t", "FileType": $$16a5f82b-6e04-4917-9b41-2c6955176412, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"D:\BMSTU Projects\ПКП\МКЭ\Ось С4.x_t", "ReferenceCount": 1}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F2" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F10" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F2</object-name>
+        <object-name valType="String">F10</object-name>
         <member-data valType="String">{"DisplayText": "SYS.scdoc", "FileType": $$16a5f82b-6e04-4917-9b41-2c6955176412, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\DM\SYS.scdoc", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
@@ -186,24 +186,24 @@
         <object-name valType="String">F3</object-name>
         <member-data valType="String">{"DisplayText": "material.engd", "FileType": $$f3bb0e5f-bebb-412d-894f-6d1545132bc5, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\SYS\ENGD\material.engd", "ReferenceCount": 1}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F4" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F11" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F4</object-name>
+        <object-name valType="String">F11</object-name>
         <member-data valType="String">{"DisplayText": "SYS.engd", "FileType": $$f3bb0e5f-bebb-412d-894f-6d1545132bc5, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.engd", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F5" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F5</object-name>
-        <member-data valType="String">{"DisplayText": "Ось С3.wbpj", "FileType": $$a9cb5b0e-bf7b-48a4-992c-848e9cd4b1dd, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": "$(ProjectName).wbpj", "ReferenceCount": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "Ось С4.wbpj", "FileType": $$a9cb5b0e-bf7b-48a4-992c-848e9cd4b1dd, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": "$(ProjectName).wbpj", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F6" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F6</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$7471f064-8563-4cd5-a891-8c7415f8230b, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$7471f064-8563-4cd5-a891-8c7415f8230b, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 3}</member-data>
       </Object>
-      <Object Name="/FileContainer/FileReference:F7" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F12" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F7</object-name>
+        <object-name valType="String">F12</object-name>
         <member-data valType="String">{"DisplayText": "SYS.mechdb", "FileType": $$d4d78afc-7f03-44f2-8d41-fb455d94a37a, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.mechdb", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F8" Version="1.0">
@@ -228,9 +228,9 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2705, "Input": 2706, "Output": 1499}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3173, "Input": 3174, "Output": 1499}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
@@ -249,9 +249,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2613, "Input": 2489, "Output": 1502}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3110, "Input": 3200, "Output": 1502}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:SYS" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">SYS</object-name>
@@ -364,7 +364,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2332, "Input": 1827, "Output": 1827}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3398, "Input": 1827, "Output": 1827}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>
@@ -385,7 +385,7 @@
       <Object Name="/Units/UnitSystem:UnitSys" Version="1.0">
         <class-type valType="String">UnitSystem</class-type>
         <object-name valType="String">UnitSys</object-name>
-        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {"Temperature": "C", "Energy Source Coefficient": "W m^-3 C^-1", "Heat Transfer Coefficient": "W m^-2 C^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Molar Entropy": "J mol^-1 C^-1", "Normalized Value": "m m^-1", "Seebeck Coefficient": "V C^-1", "Specific Entropy": "J kg^-1 C^-1", "Specific Heat Capacity": "J kg^-1 C^-1", "Temperature Gradient": "C m^-1", "Thermal Conductivity": "W m^-1 C^-1", "Thermal Expansivity": "C^-1", "Stress Per Temperature": "Pa C^-1", "Temperature Difference": "C", "Density Derivative wrt Temperature": "kg m^-3 C^-1", "Pressure Derivative wrt Temperature": "Pa C^-1", "Thermal Capacitance": "J C^-1", "Thermal Conductance": "W C^-1", "Thermal Contact Resistance": "W^-1 m^2 C", "Piezoelectric Strain Coefficient": "A s N^-1", "Piezoelectric Stress Coefficient": "A s m^-2", "Thermal Compliance": "W C"}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
+        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
       </Object>
     </Container>
     <Container Name="DpdbContainer" Version="1.0">

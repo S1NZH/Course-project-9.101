@@ -111,13 +111,13 @@
   DISTRIBUTED MEMORY PARALLEL REQUESTED
        4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
     TOTAL OF     4 CORES REQUESTED
-  INPUT FILE NAME              = C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579\dummy.dat
-  OUTPUT FILE NAME             = C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579\solve.out
+  INPUT FILE NAME              = D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B\dummy.dat
+  OUTPUT FILE NAME             = D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B\solve.out
   START-UP FILE MODE           = NOREAD
   STOP FILE MODE               = NOREAD
 
  RELEASE= 2023 R1              BUILD= 23.1      UP20221128   VERSION=WINDOWS x64 
- CURRENT JOBNAME=file0  11:35:17  MAY 21, 2026 CP=      0.047
+ CURRENT JOBNAME=file0  22:16:48  JUN 15, 2026 CP=      0.047
 
 
  PARAMETER _DS_PROGRESS =     999.0000000    
@@ -126,14 +126,14 @@
 
 
 
- *** NOTE ***                            CP =       0.109   TIME= 11:35:17
+ *** NOTE ***                            CP =       0.219   TIME= 22:16:48
  The /CONFIG,NOELDB command is not valid in a distributed memory         
  parallel solution.  Command is ignored.                                 
 
- *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5880556    
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.2800000    
 
  TITLE= 
- wbnew--Static Structural (A5)                                                 
+ ___ _3--Static Structural (A5)                                                
 
   ACT Extensions:
       LSDYNA, 2023.1
@@ -145,17 +145,17 @@
  SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579\
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B\
 
  SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\wbnew_files\dp0\SYS\MECH\
+ PARAMETER _WB_SOLVERFILES_DIR(1) = D:\BMSTU Projects\œ œ\Ã ›\ŒÒ¸ —3_files\dp0\SYS\MECH\
 
  SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
   TYPE=STRI  DIMENSIONS=      248        1        1
 
- PARAMETER _WB_USERFILES_DIR(1) = C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\wbnew_files\user_files\
+ PARAMETER _WB_USERFILES_DIR(1) = D:\BMSTU Projects\œ œ\Ã ›\ŒÒ¸ —3_files\user_files\
  --- Data in consistent NMM units. See Solving Units in the help system for more
 
  MPA UNITS SPECIFIED FOR INTERNAL    
@@ -171,9 +171,9 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R1          23.1     ***
  Ansys Mechanical Enterprise                       
- 20120530  VERSION=WINDOWS x64   11:35:17  MAY 21, 2026 CP=      0.141
+ 20120530  VERSION=WINDOWS x64   22:16:48  JUN 15, 2026 CP=      0.250
 
- wbnew--Static Structural (A5)                                                 
+ ___ _3--Static Structural (A5)                                                
 
 
 
@@ -187,18 +187,18 @@
  *********** Create Bearing Load ***********
 
 
- ***** ROUTINE COMPLETED *****  CP =         0.266
+ ***** ROUTINE COMPLETED *****  CP =         1.656
 
 
- --- Number of total nodes = 14176
- --- Number of contact elements = 1320
+ --- Number of total nodes = 152897
+ --- Number of contact elements = 15284
  --- Number of spring elements = 0
  --- Number of bearing elements = 0
- --- Number of solid elements = 7880
+ --- Number of solid elements = 88878
  --- Number of condensed parts = 0
- --- Number of total elements = 9200
+ --- Number of total elements = 104162
 
- *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5880556    
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.2802778    
  ****************************************************************************
  *************************    SOLUTION       ********************************
  ****************************************************************************
@@ -231,15 +231,15 @@
  SELECT       FOR ITEM=TYPE COMPONENT=    
   IN RANGE         2 TO          2 STEP          1
 
-       1320  ELEMENTS (OF       9200  DEFINED) SELECTED BY  ESEL  COMMAND.
+      15284  ELEMENTS (OF     104162  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  5   KVAL = 1
      VALUES =     0.0000         1.0000         0.0000         0.0000    
 
  COORDINATE SYSTEM         11 DEFINITION.  TYPE= 0  (CARTESIAN)  
    XC,YC,ZC=  0.0000      0.0000      0.0000    
-   ANGLES=  -90.00    0.00    0.00   PARAMETERS=   1.000   1.000
-   ORIENTATION=  0.00 -1.00  0.00   1.00  0.00  0.00   0.00  0.00  1.00
+   ANGLES=   90.00    0.00   81.98   PARAMETERS=   1.000   1.000
+   ORIENTATION=  0.00  0.14 -0.99  -1.00  0.00  0.00   0.00  0.99  0.14
 
  ACTIVE COORDINATE SYSTEM SET TO        11  (CARTESIAN)  
 
@@ -247,43 +247,43 @@
 
  PARAMETER _V1 =     0.000000000    
 
- PARAMETER _V2 =    -1.000000000    
+ PARAMETER _V2 =    0.1395301227    
 
- PARAMETER _V3 =     0.000000000    
+ PARAMETER _V3 =   -0.9902178270    
 
- *GET  _NECURR   FROM  ELEM  ITEM=COUN           VALUE=  1320.00000    
+ *GET  _NECURR   FROM  ELEM  ITEM=COUN           VALUE=  15284.0000    
 
  PARAMETER _ECURR =     0.000000000    
 
  PARAMETER _TOTAL =     0.000000000    
 
- *DO LOOP ON PARAMETER= _I FROM  1.0000     TO  1320.0     BY  1.0000    
+ *DO LOOP ON PARAMETER= _I FROM  1.0000     TO  15284.     BY  1.0000    
 
- PARAMETER _ECURR =     11439.00000    
+ PARAMETER _ECURR =     122309.0000    
 
- PARAMETER _NORMX =    0.5132452670E-01
+ PARAMETER _NORMX =   -0.7953503242E-03
 
- PARAMETER _NORMY =   -0.8931998306    
+ PARAMETER _NORMY =    0.9479270463    
 
- PARAMETER _NORMZ =    0.4467212281    
+ PARAMETER _NORMZ =   -0.3184865496    
 
  PARAMETER _NORMMAG =     1.000000000    
 
- PARAMETER _NORMX =    0.5132452670E-01
+ PARAMETER _NORMX =   -0.7953503242E-03
 
- PARAMETER _NORMY =   -0.8931998306    
+ PARAMETER _NORMY =    0.9479270463    
 
- PARAMETER _NORMZ =    0.4467212281    
+ PARAMETER _NORMZ =   -0.3184865496    
 
- PARAMETER _DOT =    0.8931998306    
+ PARAMETER _DOT =    0.4476354361    
 
- *IF  _dot                              ( =  0.893200     )  GT  
+ *IF  _dot                              ( =  0.447635     )  GT  
       -.00001                           ( = -0.100000E-04 )  THEN    
 
  UNSELECT     FOR ITEM=ELEM COMPONENT=    
-  IN RANGE     11439 TO      11439 STEP          1
+  IN RANGE    122309 TO     122309 STEP          1
 
-       1319  ELEMENTS (OF       9200  DEFINED) SELECTED BY  ESEL  COMMAND.
+      15283  ELEMENTS (OF     104162  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  *ELSE
 
@@ -291,29 +291,29 @@
 
  *ENDDO  INDEX= _I                              
 
- *GET  _NECURR   FROM  ELEM  ITEM=COUN           VALUE=  646.000000    
+ *GET  _NECURR   FROM  ELEM  ITEM=COUN           VALUE=  7687.00000    
 
- *IF  _necurr                           ( =   646.000     )  EQ  
+ *IF  _necurr                           ( =   7687.00     )  EQ  
       0                                 ( =   0.00000     )  THEN    
 
  *ENDIF
 
- PARAMETER _MAG =     4184.500000    
+ PARAMETER _MAG =     15917.70979    
 
- PARAMETER _MAG =     16.47320826    
+ PARAMETER _MAG =     24.90504082    
 
  SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  5   KVAL = 1
-     VALUES =     16.473         0.0000        -4184.5         0.0000    
+     VALUES =     24.905         0.0000         2221.0        -15762.    
 
  ALL SELECT   FOR ITEM=NODE COMPONENT=    
-  IN RANGE         1 TO      14176 STEP          1
+  IN RANGE         1 TO     152897 STEP          1
 
-      14176  NODES (OF      14176  DEFINED) SELECTED BY NSEL  COMMAND.
+     152897  NODES (OF     152897  DEFINED) SELECTED BY NSEL  COMMAND.
 
  ALL SELECT   FOR ITEM=ELEM COMPONENT=    
-  IN RANGE         1 TO      12758 STEP          1
+  IN RANGE         1 TO     137592 STEP          1
 
-       9200  ELEMENTS (OF       9200  DEFINED) SELECTED BY  ESEL  COMMAND.
+     104162  ELEMENTS (OF     104162  DEFINED) SELECTED BY  ESEL  COMMAND.
 
  PRINTOUT RESUMED BY /GOP
 
@@ -364,21 +364,21 @@
 
  *ENDIF
 
- *** NOTE ***                            CP =       0.641   TIME= 11:35:17
+ *** NOTE ***                            CP =       3.500   TIME= 22:16:49
  The automatic domain decomposition logic has selected the MESH domain   
  decomposition method with 4 processes per solution.                     
 
  *****  MAPDL SOLVE    COMMAND  *****
 
- *** WARNING ***                         CP =       0.641   TIME= 11:35:17
+ *** WARNING ***                         CP =       3.562   TIME= 22:16:49
  Element shape checking is currently inactive.  Issue SHPP,ON or         
  SHPP,WARN to reactivate, if desired.                                    
 
- *** NOTE ***                            CP =       0.703   TIME= 11:35:17
+ *** NOTE ***                            CP =       4.125   TIME= 22:16:50
  The model data was checked and warning messages were found.             
-  Please review output or errors file (                                  
- C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\S 
- Scr4579\file0.err ) for these warning messages.                         
+  Please review output or errors file ( D:\BMSTU                         
+ Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B\file0.err ) for these warning  
+ messages.                                                               
 
  *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
       --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
@@ -390,9 +390,9 @@
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R1          23.1     ***
  Ansys Mechanical Enterprise                       
- 20120530  VERSION=WINDOWS x64   11:35:17  MAY 21, 2026 CP=      0.703
+ 20120530  VERSION=WINDOWS x64   22:16:50  JUN 15, 2026 CP=      4.156
 
- wbnew--Static Structural (A5)                                                 
+ ___ _3--Static Structural (A5)                                                
 
 
 
@@ -406,18 +406,18 @@
       TOLERANCE. . . . . . . . . . . . . . . . . . 1.00000E-08
    GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
 
- *** WARNING ***                         CP =       0.703   TIME= 11:35:17
- Material number 2 (used by element 11439) should normally have at least 
- one MP or one TB type command associated with it.  Output of energy by  
- material may not be available.                                          
+ *** WARNING ***                         CP =       4.203   TIME= 22:16:50
+ Material number 2 (used by element 122309) should normally have at      
+ least one MP or one TB type command associated with it.  Output of      
+ energy by material may not be available.                                
 
- *** NOTE ***                            CP =       0.766   TIME= 11:35:17
+ *** NOTE ***                            CP =       4.281   TIME= 22:16:50
  The step data was checked and warning messages were found.              
-  Please review output or errors file (                                  
- C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\S 
- Scr4579\file0.err ) for these warning messages.                         
+  Please review output or errors file ( D:\BMSTU                         
+ Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B\file0.err ) for these warning  
+ messages.                                                               
 
- *** NOTE ***                            CP =       0.766   TIME= 11:35:17
+ *** NOTE ***                            CP =       4.281   TIME= 22:16:50
  The conditions for direct assembly have been met.  No .emat or .erot    
  files will be produced.                                                 
 
@@ -425,10 +425,10 @@
   
      D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
   
-  ...Number of elements: 9200
-  ...Number of nodes:    14176
+  ...Number of elements: 104162
+  ...Number of nodes:    152897
   ...Decompose to 4 CPU domains
-  ...Element load balance ratio =     1.067
+  ...Element load balance ratio =     1.010
 
 
                       L O A D   S T E P   O P T I O N S
@@ -455,7 +455,7 @@
  SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
 
 
- *** NOTE ***                            CP =       1.016   TIME= 11:35:17
+ *** NOTE ***                            CP =       5.141   TIME= 22:16:50
  The PCG solver has automatically set the level of difficulty for this   
  model to 1.                                                             
 
@@ -464,108 +464,108 @@
 
    TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
                Translational mass               |   Coupled translational/rotational mass
-        0.21582E-04    0.0000        0.0000     |     0.0000      -0.19229E-09  -0.50226E-09
-         0.0000       0.21582E-04    0.0000     |    0.19229E-09    0.0000      -0.29552E-03
-         0.0000        0.0000       0.21582E-04 |    0.50226E-09   0.29552E-03    0.0000    
+        0.42881E-04    0.0000        0.0000     |     0.0000       0.33311E-09  -0.12736E-08
+         0.0000       0.42881E-04    0.0000     |   -0.33311E-09    0.0000      -0.85763E-03
+         0.0000        0.0000       0.42881E-04 |    0.12736E-08   0.85763E-03    0.0000    
      ------------------------------------------ | ------------------------------------------
                                                 |         Rotational mass (inertia)
-                                                |    0.80935E-03   0.89276E-08  -0.18061E-08
-                                                |    0.89276E-08   0.56827E-02  -0.76653E-09
-                                                |   -0.18061E-08  -0.76653E-09   0.56827E-02
+                                                |    0.33497E-02   0.25685E-07   0.57521E-08
+                                                |    0.25685E-07   0.24497E-01   0.25429E-09
+                                                |    0.57521E-08   0.25429E-09   0.24497E-01
 
-   TOTAL MASS = 0.21582E-04
+   TOTAL MASS = 0.42881E-04
      The mass principal axes coincide with the global Cartesian axes
 
-   CENTER OF MASS (X,Y,Z)=   -13.693       0.23272E-04  -0.89097E-05
+   CENTER OF MASS (X,Y,Z)=   -20.000       0.29699E-04   0.77681E-05
 
    TOTAL INERTIA ABOUT CENTER OF MASS
-        0.80935E-03   0.20503E-08   0.82683E-09
-        0.20503E-08   0.16362E-02  -0.76653E-09
-        0.82683E-09  -0.76653E-09   0.16362E-02
+        0.33497E-02   0.21380E-09  -0.91005E-09
+        0.21380E-09   0.73443E-02   0.25430E-09
+       -0.91005E-09   0.25430E-09   0.73443E-02
      The inertia principal axes coincide with the global Cartesian axes
 
 
   *** MASS SUMMARY BY ELEMENT TYPE ***
 
   TYPE      MASS
-     1  0.215820E-04
+     1  0.428814E-04
 
  Range of element maximum matrix coefficients in global coordinates
- Maximum = 1199989.61 at element 7812.                                   
- Minimum = 66571.1443 at element 5852.                                   
+ Maximum = 646437.248 at element 88796.                                  
+ Minimum = 34995.4637 at element 26585.                                  
 
    *** ELEMENT MATRIX FORMULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      7880  SOLID187      0.312   0.000040
-        2      1320  SURF154       0.031   0.000024
- Time at end of element matrix formulation CP = 1.265625.                
- Iteration=    10 Ratio=  7.565642E-02 Limit=  1.000000E-08 Wall=     0.0
- Iteration=    35 Ratio=  5.121278E-04 Limit=  1.000000E-08 Wall=     0.0
- Iteration=    60 Ratio=  1.921592E-06 Limit=  1.000000E-08 Wall=     0.0
+        1     88878  SOLID187      2.703   0.000030
+        2     15284  SURF154       0.172   0.000011
+ Time at end of element matrix formulation CP = 6.1875.                  
+ Iteration=    10 Ratio=  9.511030E-02 Limit=  1.000000E-08 Wall=     0.1
+ Iteration=    40 Ratio=  5.458221E-04 Limit=  1.000000E-08 Wall=     0.4
+ Iteration=    75 Ratio=  2.521515E-06 Limit=  1.000000E-08 Wall=     0.8
 
  DISTRIBUTED PCG SOLVER SOLUTION CONVERGED
 
  DISTRIBUTED PCG SOLVER SOLUTION STATISTICS
 
-   NUMBER OF ITERATIONS=          87
-   NUMBER OF EQUATIONS =       42528
+   NUMBER OF ITERATIONS=         111
+   NUMBER OF EQUATIONS =      458691
    LEVEL OF CONVERGENCE=           1
-   CALCULATED NORM     = 0.78251E-08
+   CALCULATED NORM     = 0.73232E-08
    SPECIFIED TOLERANCE = 0.10000E-07
-   TOTAL CPU TIME (sec)=        0.23
-   TOTAL WALL TIME(sec)=        0.12
-   TOTAL MEMORY (GB)   =        0.02
+   TOTAL CPU TIME (sec)=        1.78
+   TOTAL WALL TIME(sec)=        1.82
+   TOTAL MEMORY (GB)   =        0.20
 
 
    *** ELEMENT RESULT CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      7880  SOLID187      0.141   0.000018
-        2      1320  SURF154       0.016   0.000012
+        1     88878  SOLID187      1.766   0.000020
+        2     15284  SURF154       0.125   0.000008
 
    *** NODAL LOAD CALCULATION TIMES
      TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
 
-        1      7880  SOLID187      0.031   0.000004
-        2      1320  SURF154       0.000   0.000000
+        1     88878  SOLID187      0.516   0.000006
+        2     15284  SURF154       0.000   0.000000
  *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
  *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
 
 
  *** MAPDL BINARY FILE STATISTICS
   BUFFER SIZE USED= 16384
-        1.688 MB WRITTEN ON RESULTS FILE: file0.rst
+       16.438 MB WRITTEN ON RESULTS FILE: file0.rst
  *************** Write FE CONNECTORS *********
 
  WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
  ****************************************************
  *************** FINISHED SOLVE FOR LS 1 *************
 
- *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5880556    
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.2816667    
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _PCGITER  FROM  ACTI  ITEM=SOLU CGIT  VALUE=  87.0000000    
+ *GET  _PCGITER  FROM  ACTI  ITEM=SOLU CGIT  VALUE=  111.000000    
 
  FINISH SOLUTION PROCESSING
 
 
- ***** ROUTINE COMPLETED *****  CP =         1.672
+ ***** ROUTINE COMPLETED *****  CP =         9.266
 
 
 
  *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2023 R1          23.1     ***
  Ansys Mechanical Enterprise                       
- 20120530  VERSION=WINDOWS x64   11:35:17  MAY 21, 2026 CP=      1.672
+ 20120530  VERSION=WINDOWS x64   22:16:54  JUN 15, 2026 CP=      9.281
 
- wbnew--Static Structural (A5)                                                 
+ ___ _3--Static Structural (A5)                                                
 
 
 
           ***** MAPDL RESULTS INTERPRETATION (POST1) *****
 
- *** NOTE ***                            CP =       1.672   TIME= 11:35:17
+ *** NOTE ***                            CP =       9.281   TIME= 22:16:54
  Reading results into the database (SET command) will update the current 
  displacement and force boundary conditions in the database with the     
  values from the results file for that load set.  Note that any          
@@ -583,29 +583,29 @@
  EXIT THE MAPDL POST1 DATABASE PROCESSOR
 
 
- ***** ROUTINE COMPLETED *****  CP =         1.672
+ ***** ROUTINE COMPLETED *****  CP =         9.281
 
 
 
  PRINTOUT RESUMED BY /GOP
 
- *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  11.5880556    
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  22.2816667    
 
- PARAMETER _PREPTIME =     0.000000000    
+ PARAMETER _PREPTIME =     1.000000000    
 
- PARAMETER _SOLVTIME =     0.000000000    
+ PARAMETER _SOLVTIME =     5.000000000    
 
  PARAMETER _POSTTIME =     0.000000000    
 
- PARAMETER _TOTALTIM =     0.000000000    
+ PARAMETER _TOTALTIM =     6.000000000    
 
- *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.06652174    
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.00956221    
 
- *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.169734000E-01
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.189402100    
 
  *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  0.00000000    
 
- *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  39120.0000    
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  439083.000    
 
  *GET  _SOL_END_TIME  FROM  ACTI  ITEM=SET  TIME  VALUE=  1.00000000    
 
@@ -615,12 +615,12 @@
  /FCLEAN COMMAND REMOVING ALL LOCAL FILES
 
  *ENDIF
- --- Total number of nodes = 14176
- --- Total number of elements = 9200
- --- Element load balance ratio = 1.06652174
- --- Time to combine distributed files = 1.69734E-02
+ --- Total number of nodes = 152897
+ --- Total number of elements = 104162
+ --- Element load balance ratio = 1.00956221
+ --- Time to combine distributed files = 0.1894021
  --- Sparse memory mode = 0
- --- Number of DOF = 39120
+ --- Number of DOF = 439083
 
  EXIT MAPDL WITHOUT SAVING DATABASE
 
@@ -631,7 +631,7 @@
 +--------------------- M A P D L   S T A T I S T I C S ------------------------+
 
 Release: 2023 R1            Build: 23.1       Update: UP20221128   Platform: WINDOWS x64 
-Date Run: 05/21/2026   Time: 11:35     Process ID: 33828
+Date Run: 06/15/2026   Time: 22:16     Process ID: 35288
 Operating System: Windows 11  (Build: 26200)
 
 Processor Model: AMD Ryzen 7 7800X3D 8-Core Processor
@@ -658,38 +658,38 @@ Input File: dummy.dat
 
   Core                Machine Name   Working Directory
  -----------------------------------------------------
-     0             DESKTOP-OTJKHDV   C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579
-     1             DESKTOP-OTJKHDV   C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579
-     2             DESKTOP-OTJKHDV   C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579
-     3             DESKTOP-OTJKHDV   C:\Users\COMP\AppData\Local\Temp\WB_NIKITA_Zh_12952_2\_ProjectScratch\Scr4579
+     0             DESKTOP-OTJKHDV   D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B
+     1             DESKTOP-OTJKHDV   D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B
+     2             DESKTOP-OTJKHDV   D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B
+     3             DESKTOP-OTJKHDV   D:\BMSTU Projects\œ œ\Ã ›\_ProjectScratch\ScrFF8B
  
-Latency time from master to core     1 =    2.518 microseconds
-Latency time from master to core     2 =    2.325 microseconds
-Latency time from master to core     3 =    2.354 microseconds
+Latency time from master to core     1 =    2.434 microseconds
+Latency time from master to core     2 =    2.500 microseconds
+Latency time from master to core     3 =    2.374 microseconds
  
-Communication speed from master to core     1 = 16769.03 MB/sec
-Communication speed from master to core     2 = 19331.14 MB/sec
-Communication speed from master to core     3 = 17847.98 MB/sec
+Communication speed from master to core     1 = 18992.00 MB/sec
+Communication speed from master to core     2 = 19174.54 MB/sec
+Communication speed from master to core     3 = 20336.57 MB/sec
 
-Total CPU time for main thread                    :        0.8 seconds
-Total CPU time summed for all threads             :        2.2 seconds
+Total CPU time for main thread                    :        6.4 seconds
+Total CPU time summed for all threads             :       10.0 seconds
 
 Elapsed time spent obtaining a license            :        0.3 seconds
-Elapsed time spent pre-processing model (/PREP7)  :        0.0 seconds
-Elapsed time spent solution - preprocessing       :        0.1 seconds
-Elapsed time spent computing solution             :        0.3 seconds
-Elapsed time spent solution - postprocessing      :        0.0 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.4 seconds
+Elapsed time spent solution - preprocessing       :        0.7 seconds
+Elapsed time spent computing solution             :        3.7 seconds
+Elapsed time spent solution - postprocessing      :        0.2 seconds
 Elapsed time spent post-processing model (/POST1) :        0.0 seconds
  
 Equation solver used                              :            PCG (symmetric)
-Equation solver computational rate                :       28.4 Gflops
+Equation solver computational rate                :       10.7 Gflops
 
-Sum of memory used on all processes               :      220.0 MB
+Sum of memory used on all processes               :      973.0 MB
 Sum of memory allocated on all processes          :     5184.0 MB
 Physical memory available                         :         31 GB
 
-Total amount of I/O written to disk               :        0.0 GB
-Total amount of I/O read from disk                :        0.0 GB
+Total amount of I/O written to disk               :        0.2 GB
+Total amount of I/O read from disk                :        0.1 GB
 
 +------------------ E N D   M A P D L   S T A T I S T I C S -------------------+
 
@@ -705,13 +705,13 @@ Total amount of I/O read from disk                :        0.0 GB
  |-----------------------------------------------------------------------------|
  |                                                                             |
  |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
- |  Max Database Used(Master)     12 MB     Max Scratch Used(Master)     60 MB |
- |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)    49 MB |
- |  Sum Database Used(All)        15 MB     Sum Scratch Used(All)       205 MB |
+ |  Max Database Used(Master)    125 MB     Max Scratch Used(Master)    355 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   165 MB |
+ |  Sum Database Used(All)       128 MB     Sum Scratch Used(All)       845 MB |
  |                                                                             |
  |-----------------------------------------------------------------------------|
  |                                                                             |
- |        CP Time      (sec) =          2.250       Time  =  11:35:17          |
- |        Elapsed Time (sec) =          2.000       Date  =  05/21/2026        |
+ |        CP Time      (sec) =         10.016       Time  =  22:16:56          |
+ |        Elapsed Time (sec) =          9.000       Date  =  06/15/2026        |
  |                                                                             |
  *-----------------------------------------------------------------------------*
